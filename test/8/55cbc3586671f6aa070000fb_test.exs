@@ -1,4 +1,4 @@
-defmodule TestSolution do
+defmodule TestCheckForFactor do
   use ExUnit.Case
 
   defp testing(base, factor, exp) do

@@ -1,4 +1,4 @@
-defmodule TestSolution do
+defmodule TestMiddleCharacter do
   use ExUnit.Case
   import MiddleCharacter, only: [get_middle: 1]
 

@@ -1,6 +1,6 @@
-defmodule TestSolution do
+defmodule TestRemoveFirstLastCharacter do
   use ExUnit.Case
-  import Solution, only: [remove_chars: 1]
+  import RemoveFirstLastCharacter, only: [remove_chars: 1]
 
   test "basic test" do
     assert remove_chars("eloquent") == "loquen"

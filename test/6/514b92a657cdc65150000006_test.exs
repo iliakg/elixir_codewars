@@ -1,6 +1,6 @@
-defmodule TestSolution do
+defmodule TestMultiplesChallenge do
   use ExUnit.Case
-  import Challenge, only: [solution: 1]
+  import MultiplesChallenge, only: [solution: 1]
 
   def test_solution(n, expected) do
     assert solution(n) == expected

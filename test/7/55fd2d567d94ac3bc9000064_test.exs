@@ -1,4 +1,4 @@
-defmodule TestSolution do
+defmodule TestSumOfOdd do
   use ExUnit.Case
 
   test "Basic Tests" do

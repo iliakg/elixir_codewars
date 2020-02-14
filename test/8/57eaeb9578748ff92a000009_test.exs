@@ -1,4 +1,4 @@
-defmodule TestSolution do
+defmodule TestSumMix do
   use ExUnit.Case
   import SumMix
 
